@@ -1,0 +1,14 @@
+.header-nav-more {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 10px 0 10px;
+  padding: 2px 2px 2px 2px;
+  transition-property: background;
+  transition-duration: .2s;
+  border-radius: 10px;
+}
+
+.header-nav-more:hover {
+  background: rgba(192, 192, 192, 0.75) !important;
+}

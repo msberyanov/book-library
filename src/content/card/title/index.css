@@ -1,0 +1,25 @@
+.title {
+  font-size: 17px;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-family: 'Andika Bold', sans-serif;
+  color: white;
+  transition-property: font-size;
+  transition-duration: .4s;
+}
+
+@media (min-width: 681px) and (max-width: 900px) {
+  .title {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 680px) {
+  .title {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+}

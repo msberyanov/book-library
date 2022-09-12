@@ -1,0 +1,25 @@
+.rate {
+  background: rgba(255, 255, 255, 0.33);
+  width: 88px;
+  border-radius: 5px;
+  padding-top: 2px;
+  padding-left: 5px;
+  margin-left: 15px;
+  margin-top: 10px;
+  backdrop-filter: blur(8px);
+  transition-property: all;
+  transition-duration: .3s;
+  cursor: pointer;
+}
+
+.star-selected {
+  color: white;
+}
+
+.star-unselected {
+  color: rgba(26, 12, 12, 0.55);
+}
+
+.star-selecting {
+  color: rgba(234, 234, 234, 0.55) !important;
+}

@@ -1,0 +1,19 @@
+.author {
+  color: white;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+@media (min-width: 681px) and (max-width: 900px) {
+  .author {
+    font-size: 14px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 680px) {
+  .author {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+}

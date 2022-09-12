@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+  align-items: flex-start;
+  width: 10%;
+  min-width: 140px;
+  font-size: 14px;
+  margin: 18px 20px 20px 20px;
+  color: #3b3b3b;
+}
+
+.logo-icon {
+  margin-top: 4px;
+  margin-right: 7px;
+  font-size: 18px;
+}

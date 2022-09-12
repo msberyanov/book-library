@@ -1,0 +1,83 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background: var(--main-color);
+  min-width: 35px;
+  height: 35px;
+  border-radius: 7px;
+  margin-top: 17px;
+  color: white;
+  font-size: 10px;
+  white-space: nowrap;
+  transition-property: all;
+  transition-duration: .3s;
+  cursor: pointer;
+}
+
+.date {
+  padding: 0 10px 0 10px;
+}
+
+.button-selected {
+  padding-right: 10px;
+}
+
+@media (min-width: 1321px) {
+}
+
+@media (min-width: 1191px) and (max-width: 1320px) {
+}
+
+@media (min-width: 901px) and (max-width: 1190px) {
+}
+
+@media (min-width: 681px) and (max-width: 900px) {
+  .button {
+    height: 37px;
+    min-width: 37px;
+    margin-top: 16px;
+    font-size: 11px;
+  }
+
+  .button-selected {
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 0) and (max-width: 680px) {
+  .button {
+    height: 55px;
+    min-width: 55px;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .button-selected {
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+}
+
+.button-unselected {
+  background: rgba(152, 152, 152, 0.54);
+}
+
+.button-unselected:hover {
+  background: var(--main-color);
+}
+
+.button:first-of-type {
+  margin-left: 15px;
+}
+
+.button:last-of-type {
+  margin-right: 15px;
+}
+
+.button-icon {
+  color: white;
+  margin: 8px 7px 7px 7px;
+}

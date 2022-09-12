@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Andika Regular';
+  src: local('Andika Regular'), url(./Andika-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Andika Bold';
+  src: local('Andika Bold'), url(./Andika-Bold.ttf) format('truetype');
+}
